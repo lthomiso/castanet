@@ -1,6 +1,83 @@
 # Changelog
 
-## [1.10.0](https://github.com/mattstratton/castanet/tree/1.10.0) (2020-09-13)
+## [1.14.1](https://github.com/mattstratton/castanet/tree/1.14.1) (2021-01-04)
+
+**Fixed bugs:**
+
+- Fixing RSS feed publishing bug [\#335](https://github.com/mattstratton/castanet/pull/335) ([chrisreddington](https://github.com/chrisreddington))
+
+## [1.14.0](https://github.com/mattstratton/castanet/tree/1.14.0) (2021-01-02)
+
+**Implemented enhancements:**
+
+- \[ENHANCEMENT\] - Replace Google Play Music with Google Podcasts [\#328](https://github.com/mattstratton/castanet/issues/328)
+- \[ENHANCEMENT\] - Add support for preferred pronouns for guest and host [\#274](https://github.com/mattstratton/castanet/issues/274)
+- Feed improvements [\#247](https://github.com/mattstratton/castanet/issues/247)
+- Add Spotify subscribe button information to REFERENCE.md file [\#226](https://github.com/mattstratton/castanet/issues/226)
+- Allow for customization of titles in feed [\#168](https://github.com/mattstratton/castanet/issues/168)
+- Add episode numbers as an option [\#67](https://github.com/mattstratton/castanet/issues/67)
+- \[ENHANCEMENT\] Add support for blog posts [\#19](https://github.com/mattstratton/castanet/issues/19)
+- Add episode numbers/prefix in RSS and Relevant Titles/Links \[Attempt \#2\] [\#322](https://github.com/mattstratton/castanet/pull/322) ([chrisreddington](https://github.com/chrisreddington))
+- Initial implementation for pronouns [\#312](https://github.com/mattstratton/castanet/pull/312) ([chrisreddington](https://github.com/chrisreddington))
+- Create skeleton of blog feature [\#310](https://github.com/mattstratton/castanet/pull/310) ([mattstratton](https://github.com/mattstratton))
+
+**Fixed bugs:**
+
+- \[BUG\] - \<itunes:explicit\> tag should be true/false not yes/no [\#326](https://github.com/mattstratton/castanet/issues/326)
+- Update explicit tags for proper Apple/Google format [\#327](https://github.com/mattstratton/castanet/pull/327) ([chrisreddington](https://github.com/chrisreddington))
+
+**Closed issues:**
+
+- Add lighthouse checks to build for perf testing [\#318](https://github.com/mattstratton/castanet/issues/318)
+
+**Merged pull requests:**
+
+- Test with matrix build [\#321](https://github.com/mattstratton/castanet/pull/321) ([mattstratton](https://github.com/mattstratton))
+
+## [1.13.0](https://github.com/mattstratton/castanet/tree/1.13.0) (2020-12-01)
+
+**Implemented enhancements:**
+
+- Add Functionality: Show next upcoming episode [\#309](https://github.com/mattstratton/castanet/pull/309) ([chrisreddington](https://github.com/chrisreddington))
+
+## [1.12.1](https://github.com/mattstratton/castanet/tree/1.12.1) (2020-12-01)
+
+**Implemented enhancements:**
+
+- \[ENHANCEMENT\] - Add link to podcast rss feed to HEAD [\#299](https://github.com/mattstratton/castanet/issues/299)
+
+## [1.12.0](https://github.com/mattstratton/castanet/tree/1.12.0) (2020-11-30)
+
+**Implemented enhancements:**
+
+- \[ENHANCEMENT\] - Add taxonomies for Tags, Series and Categories [\#306](https://github.com/mattstratton/castanet/issues/306)
+- \[ENHANCEMENT\] Add episode tags support. [\#245](https://github.com/mattstratton/castanet/issues/245)
+- Add Category, Tag and Series taxonomies to theme [\#307](https://github.com/mattstratton/castanet/pull/307) ([chrisreddington](https://github.com/chrisreddington))
+
+**Merged pull requests:**
+
+- Test of GH actions [\#305](https://github.com/mattstratton/castanet/pull/305) ([mattstratton](https://github.com/mattstratton))
+
+## [1.11.2](https://github.com/mattstratton/castanet/tree/1.11.2) (2020-11-24)
+
+**Fixed bugs:**
+
+- Upcoming episodes should be sorted from soonest to furthest away [\#302](https://github.com/mattstratton/castanet/pull/302) ([chrisreddington](https://github.com/chrisreddington))
+
+## [1.11.1](https://github.com/mattstratton/castanet/tree/1.11.1) (2020-11-24)
+
+## [1.11.0](https://github.com/mattstratton/castanet/tree/1.11.0) (2020-11-23)
+
+**Implemented enhancements:**
+
+- Add list of sites using theme to the README [\#270](https://github.com/mattstratton/castanet/issues/270)
+- show future episodes [\#257](https://github.com/mattstratton/castanet/issues/257)
+
+**Fixed bugs:**
+
+- \[Bug\] Navbar nests links and results in 404 error [\#269](https://github.com/mattstratton/castanet/issues/269)
+
+## [1.10.0](https://github.com/mattstratton/castanet/tree/1.10.0) (2020-09-14)
 
 **Implemented enhancements:**
 
@@ -62,6 +139,10 @@
 **Fixed bugs:**
 
 - Fix bug in episode template with transcripts [\#276](https://github.com/mattstratton/castanet/pull/276) ([mattstratton](https://github.com/mattstratton))
+
+**Merged pull requests:**
+
+- Update host code to be a partial [\#166](https://github.com/mattstratton/castanet/pull/166) ([mattstratton](https://github.com/mattstratton))
 
 ## [1.5.0](https://github.com/mattstratton/castanet/tree/1.5.0) (2020-05-19)
 
@@ -259,10 +340,6 @@
 **Closed issues:**
 
 - Enhanced Host Support [\#142](https://github.com/mattstratton/castanet/issues/142)
-
-**Merged pull requests:**
-
-- Update host code to be a partial [\#166](https://github.com/mattstratton/castanet/pull/166) ([mattstratton](https://github.com/mattstratton))
 
 ## [0.8.0](https://github.com/mattstratton/castanet/tree/0.8.0) (2017-06-13)
 

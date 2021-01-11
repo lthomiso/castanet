@@ -5,7 +5,12 @@ theme = "castanet"
 googleAnalytics = ""
 themesdir = "../.."
 paginate = "9"
+buildFuture = true
 
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
 
 [permalinks]
 	# page = "/:filename/"
@@ -37,6 +42,16 @@ paginate = "9"
     url = "/guest"
 
 [[Menu.Main]]
+    name = "Upcoming Episodes"
+    identifier = "upcoming"
+    url = "/upcoming"
+
+[[Menu.Main]]
+    name = "Blog"
+    identifier = "blog"
+    url = "/blog"
+
+[[Menu.Main]]
     name = "Resources"
     identifier = "resources"
     url = "#!"
@@ -54,9 +69,12 @@ paginate = "9"
 
 [params]
 mainSections = ["episode"]
+episode_number_style  = "brackets"
+episode_number_prefix = "CWC"
 site_theme = "grey"
 # site_layout = "grid"
 site_layout = "row"
+show_next_upcoming = "true"
 enable_jumbo = "true"
 # enable_jumbo = "false"
 # truncate = "100"
@@ -65,12 +83,12 @@ copyright_notice = "Copyright 2016 [Matt Stratton](https://www.mattstrattion.io)
 itunes_subscribe = "https://podcasts.apple.com/us/podcast/arrested-devops/id773888088?ign-mpt=uo%3D4&mt=2"
 android_subscribe = "http://subscribeonandroid.com/feeds.podtrac.com/VGAulpN7MY1U"
 spotify_subscribe = "https://open.spotify.com/show/..."
-google_play_subscribe = "https://goo.gl/app/playmusic?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&link=https://play.google.com/music/m/Ihj4yege3lfmp3vs5yoopgxijpi?t%3DArrested_DevOps"
+google_play_subscribe = "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuYXJyZXN0ZWRkZXZvcHMuY29tL2VwaXNvZGUvaW5kZXgueG1s"
 stitcher_subscribe = "http://www.stitcher.com/podcast/arrested-devops-2/arrested-devops"
 soundcloud_subscribe = "http://feeds.soundcloud.com/users/soundcloud:users:203144248/sounds.rss"
 pocketcasts_subscribe = "http://pcasts.in/feed/feeds.soundcloud.com/users/soundcloud:users:203144248/sounds.rss"
 mailchimp_subscribe = "//arresteddevops.us3.list-manage.com/subscribe/post?u=5e4cbcac996bb9df25f970a89&amp;id=154fa76bcc"
-#rss_subscribe = "http://feed.com/myfeed" #only set this if you don't want to use the built-in feed
+# rss_subscribe = "http://feed.com/myfeed" #only set this if you don't want to use the built-in feed
 description = "The HugoCast is the best podcast you've ever seen. You will learn everything you ever needed to know about [podcasting](https://en.wikipedia.org/wiki/Podcast) from the most inspiring experts to ever show up on the whole internet."
 media_prefix = "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/"
 disqusShortname = ""
